@@ -11,7 +11,10 @@ header nav {
   margin-top: 1em;
   margin-bottom: 1em;
   background: url(https://media0.giphy.com/media/rHjtiKPkezza/200_s.gif);
-  text-align: center; }
+  text-align: center;
+  padding-top: 5em; }
+  .simple-pricing div h2 {
+    margin: 0 0 0 0; }
 
 .five-dollar {
   border-color: #DDDDDD;
@@ -47,8 +50,6 @@ header nav {
   .twenty-five-dollar .smallb {
     background-color: #2C4985;
     color: white; }
-  .twenty-five-dollar .text-boxes {
-    margin: 1em; }
   .twenty-five-dollar h4 {
     background-color: #DDDDDD;
     border-color: #DDDDDD;
@@ -92,5 +93,19 @@ header nav {
       border-color: #DDDDDD;
       border: 1px solid;
       border-radius: 40%; }
+
+.text-boxes div {
+  margin: 0 1em 1em 1em;
+  padding: 1em; }
+  .text-boxes div p {
+    color: #8B9498;
+    margin: 0 0 0 0; }
+
+footer {
+  background-color: #272822;
+  color: #8B9498;
+  padding: 1em; }
+  footer nav a {
+    color: #8B9498; }
 
 /*# sourceMappingURL=main.css.map */

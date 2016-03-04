@@ -17,6 +17,11 @@ header {
 	margin-bottom: 1em;
 	background: url(https://media0.giphy.com/media/rHjtiKPkezza/200_s.gif);
 	text-align: center;
+	padding-top: 5em;
+
+	div h2{
+		margin: 0 0 0 0;
+	}
 
 }
 .five-dollar{
@@ -61,9 +66,7 @@ header {
     	background-color: #2C4985;
     	color: $color;
     }
-    .text-boxes{
-    	margin: 1em;
-    }
+  
     
     h4{
     	background-color: #DDDDDD;
@@ -117,4 +120,21 @@ header {
 			border-radius: 40%;
 		}
     }
+}
+.text-boxes div{
+    	margin: 0 1em 1em 1em;
+    	padding: 1em;
+
+   	p{
+    	color: #8B9498;
+    	margin: 0 0 0 0;
+   	}
+}
+footer{
+	background-color: #272822;
+	color: #8B9498;
+	padding: 1em;
+	nav a{
+		color: #8B9498;
+	}
 }
