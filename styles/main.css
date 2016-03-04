@@ -9,7 +9,88 @@ header nav {
 .simple-pricing {
   height: 15em;
   margin-top: 1em;
+  margin-bottom: 1em;
   background: url(https://media0.giphy.com/media/rHjtiKPkezza/200_s.gif);
   text-align: center; }
+
+.five-dollar {
+  border-color: #DDDDDD;
+  border: 1px solid;
+  text-align: center;
+  margin-top: 1em; }
+  .five-dollar .personal {
+    background-color: #519251;
+    color: white; }
+  .five-dollar h4 {
+    background-color: #F7F7F7;
+    border-color: #DDDDDD;
+    border-top: 1px solid;
+    margin: 0 0 0 0;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  .five-dollar div {
+    border-top: #DDDDDD;
+    border: 1px solid;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+    .five-dollar div button {
+      height: 2em;
+      border-color: #DDDDDD;
+      border: 1px solid;
+      border-radius: 40%; }
+
+.twenty-five-dollar {
+  border-color: #DDDDDD;
+  border: 1px solid;
+  text-align: center;
+  margin-top: 1em; }
+  .twenty-five-dollar .smallb {
+    background-color: #2C4985;
+    color: white; }
+  .twenty-five-dollar .text-boxes {
+    margin: 1em; }
+  .twenty-five-dollar h4 {
+    background-color: #DDDDDD;
+    border-color: #DDDDDD;
+    border-top: 1px solid;
+    margin: 0 0 0 0;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  .twenty-five-dollar div {
+    border-top: #DDDDDD;
+    border: 1px solid;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+    .twenty-five-dollar div button {
+      height: 2em;
+      border-color: #DDDDDD;
+      border: 1px solid;
+      border-radius: 40%; }
+
+.fourty-five-dollar {
+  border-color: #DDDDDD;
+  border: 1px solid;
+  text-align: center;
+  margin-top: 1em; }
+  .fourty-five-dollar .enterprise {
+    background-color: #272822;
+    color: white; }
+  .fourty-five-dollar h4 {
+    background-color: #DDDDDD;
+    border-color: #DDDDDD;
+    border-top: 1px solid;
+    margin: 0 0 0 0;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  .fourty-five-dollar div {
+    border-top: #DDDDDD;
+    border: 1px solid;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+    .fourty-five-dollar div button {
+      height: 2em;
+      border-color: #DDDDDD;
+      border: 1px solid;
+      border-radius: 40%; }
 
 /*# sourceMappingURL=main.css.map */
