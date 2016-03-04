@@ -1,0 +1,15 @@
+header nav {
+  text-align: middle; }
+  header nav img {
+    height: 5em;
+    width: 5em; }
+  header nav a {
+    padding-left: 2em; }
+
+.simple-pricing {
+  height: 15em;
+  margin-top: 1em;
+  background: url(https://media0.giphy.com/media/rHjtiKPkezza/200_s.gif);
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
