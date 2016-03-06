@@ -1,7 +1,6 @@
 $color: white;
 header {
 	nav {
-		text-align: middle;
 		img{
 			height: 5em;
 			width: 5em;
@@ -11,130 +10,182 @@ header {
        	}
 	}
 }
-.simple-pricing{
-	height: 15em;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	background: url(https://media0.giphy.com/media/rHjtiKPkezza/200_s.gif);
-	text-align: center;
-	padding-top: 5em;
+body{
+	max-width: 50em;
+	.simple-pricing{
+		height: 15em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		background: url(https://media0.giphy.com/media/rHjtiKPkezza/200_s.gif);
+		background-size: contain;
+		text-align: center;
+		padding-top: 5em;
+		
+		h2{
+			margin:0 0 0 0;
+		}
+	}	
+	.five-dollar{
+		border-color: #DDDDDD;
+		border: 1px solid;
+		text-align: center;
+		margin-top: 1em;
+		@media (min-width: 600px) {
+  		display: inline-block;
+  		float:left;
+  		margin-left: 2em;
+ 	 	}
+	    .personal{
+	    	background-color: #519251;
+	    	color: $color;
+			padding-top: 2em;
+			padding-bottom: 2em;
+	    	span{
+	    		margin: 0 0 0 0;
+	    	}
+	    	h1{
+	    		margin: 0 0 0 0;
+	    		font-size: 30pt;
 
-	div h2{
-		margin: 0 0 0 0;
+	    	}
+	    }
+	    
+	    h4{
+	    	background-color: #F7F7F7;
+	    	border-color: #DDDDDD;
+			border-top: 1px solid;
+			margin: 0 0 0 0;
+			padding-top: 1em;
+			padding-bottom: 1em;
+	    }
+	    div{
+	    	border-top: #DDDDDD;
+	    	border: 1px solid;
+	    	padding-top: 1em;
+	    	padding-bottom: 1em;  
+	    	button{
+		    	height: 2em;
+		    	border-color: #DDDDDD;
+				border: 1px solid;
+				border-radius: 40%;
+			}
+	    }
 	}
+	.twenty-five-dollar{
+		border-color: #DDDDDD;
+		border: 1px solid;
+		text-align: center;
+		margin-top: 1em;
+		@media (min-width: 600px) {
+  			display: inline-block;
+  			float:left;
+  			margin-left: 2em;
+ 	 	}
+		
+	    .smallb{
+	    	background-color: #2C4985;
+	    	color: $color;
+	    	padding-top: 2em;
+	    	padding-bottom: 2em;
+	    	h3{
+	    		margin: 0 0 0 0;
+	    	}
+	    	h1{
+	    		margin: 0 0 0 0;
+	    		font-size: 30pt;
 
-}
-.five-dollar{
-	border-color: #DDDDDD;
-	border: 1px solid;
-	text-align: center;
-	margin-top: 1em;
-
-    .personal{
-    	background-color: #519251;
-    	color: $color;
-    }
-    
-    h4{
-    	background-color: #F7F7F7;
-    	border-color: #DDDDDD;
-		border-top: 1px solid;
-		margin: 0 0 0 0;
-		padding-top: 1em;
-		padding-bottom: 1em;
-    }
-    div{
-    	border-top: #DDDDDD;
-    	border: 1px solid;
-    	padding-top: 1em;
-    	padding-bottom: 1em;  
-    	button{
-	    	height: 2em;
+	    	}
+	    }
+	    h4{
+	    	background-color: #DDDDDD;
 	    	border-color: #DDDDDD;
-			border: 1px solid;
-			border-radius: 40%;
-		}
-    }
-}
-.twenty-five-dollar{
-	border-color: #DDDDDD;
-	border: 1px solid;
-	text-align: center;
-	margin-top: 1em;
-	
-    .smallb{
-    	background-color: #2C4985;
-    	color: $color;
-    }
-  
-    
-    h4{
-    	background-color: #DDDDDD;
-    	border-color: #DDDDDD;
-		border-top: 1px solid;
-		margin: 0 0 0 0;
-		padding-top: 1em;
-		padding-bottom: 1em;
-    }
-    div{
-    	border-top: #DDDDDD;
-    	border: 1px solid;
-    	padding-top: 1em;
-    	padding-bottom: 1em;  
-    	button{
-	    	height: 2em;
+			border-top: 1px solid;
+			margin: 0 0 0 0;
+			padding-top: 1em;
+			padding-bottom: 1em;
+	    }
+	    div{
+	    	border-top: #DDDDDD;
+	    	border: 1px solid;
+	    	padding-top: 1em;
+	    	padding-bottom: 1em;  
+	    	button{
+		    	height: 2em;
+		    	border-color: #DDDDDD;
+				border: 1px solid;
+				border-radius: 40%;
+			}
+	    }
+	}
+	.fourty-five-dollar{
+		border-color: #DDDDDD;
+		border: 1px solid;
+		text-align: center;
+		margin-top: 1em;
+		@media (min-width: 600px) {
+  		display: inline-block;
+  		float:left;
+  		margin-left: 2em;
+ 	 	}
+	    .enterprise{
+	    	background-color: #272822;
+	    	color: $color;
+	    	padding-top: 2em;
+	    	padding-bottom: 2em;
+	    	h3{
+	    		margin: 0 0 0 0;
+	    	}
+	    	h1{
+	    		margin: 0 0 0 0;
+	    		font-size: 30pt;	
+	    	}
+	    }
+	    
+	    h4{
+	    	background-color: #DDDDDD;
 	    	border-color: #DDDDDD;
-			border: 1px solid;
-			border-radius: 40%;
-		}
-    }
-}
-.fourty-five-dollar{
-	border-color: #DDDDDD;
-	border: 1px solid;
-	text-align: center;
-	margin-top: 1em;
-	
-    .enterprise{
-    	background-color: #272822;
-    	color: $color;
-    }
-    
-    h4{
-    	background-color: #DDDDDD;
-    	border-color: #DDDDDD;
-		border-top: 1px solid;
-		margin: 0 0 0 0;
-		padding-top: 1em;
-		padding-bottom: 1em;
-    }
-    div{
-    	border-top: #DDDDDD;
-    	border: 1px solid;
-    	padding-top: 1em;
-    	padding-bottom: 1em;  
-    	button{
-	    	height: 2em;
-	    	border-color: #DDDDDD;
-			border: 1px solid;
-			border-radius: 40%;
-		}
-    }
-}
-.text-boxes div{
-    	margin: 0 1em 1em 1em;
-    	padding: 1em;
-
-   	p{
-    	color: #8B9498;
-    	margin: 0 0 0 0;
-   	}
-}
-footer{
-	background-color: #272822;
-	color: #8B9498;
-	padding: 1em;
-	nav a{
+			border-top: 1px solid;
+			margin: 0 0 0 0;
+			padding-top: 1em;
+			padding-bottom: 1em;
+	    }
+	    div{
+	    	border-top: #DDDDDD;
+	    	border: 1px solid;
+	    	padding-top: 1em;
+	    	padding-bottom: 1em;  
+	    	button{
+		    	height: 2em;
+		    	border-color: #DDDDDD;
+				border: 1px solid;
+				border-radius: 40%;
+			}
+	    }
+	}
+	div>.text-boxes
+		@media (min-width: 600px) {
+  		display: inline-block;
+  		float:left;
+  		margin-left: 2em;
+ 	 	}
+		.text-boxes div{
+	    	margin: 0 1em 1em 1em;
+	    	padding: 1em;
+		   	p{
+		    	color: #8B9498;
+		    	margin: 0 0 0 0;
+		   	}
+	}
+	footer{
+		background-color: #272822;
 		color: #8B9498;
+		padding: 1em;
+		@media (min-width: 600px) {
+  		display: block;
+  		float: none;
+ 	 	}
+		nav a{
+			color: #8B9498;
+		}
 	}
 }
