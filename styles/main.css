@@ -21,12 +21,12 @@ body {
     border: 1px solid;
     text-align: center;
     margin-top: 1em; }
-    @media (min-width: 767) {
+    @media (min-width: 479px) {
       body .five-dollar {
         display: inline-block;
         float: left;
         margin-left: 2em;
-        width: 30%; } }
+        width: 28%; } }
     body .five-dollar .personal {
       background-color: #519251;
       color: white;
@@ -59,11 +59,12 @@ body {
     border: 1px solid;
     text-align: center;
     margin-top: 1em; }
-    @media (min-width: 767) {
+    @media (min-width: 479px) {
       body .twenty-five-dollar {
         display: inline-block;
         float: left;
-        margin-left: 2em; } }
+        margin-left: 2em;
+        width: 28%; } }
     body .twenty-five-dollar .smallb {
       background-color: #2C4985;
       color: white;
@@ -96,11 +97,12 @@ body {
     border: 1px solid;
     text-align: center;
     margin-top: 1em; }
-    @media (min-width: 767) {
+    @media (min-width: 479px) {
       body .fourty-five-dollar {
         display: inline-block;
         float: left;
-        margin-left: 2em; } }
+        margin-left: 2em;
+        width: 28%; } }
     body .fourty-five-dollar .enterprise {
       background-color: #272822;
       color: white;
@@ -128,17 +130,18 @@ body {
         border-color: #DDDDDD;
         border: 1px solid;
         border-radius: 40%; }
-  body div.tb .text-boxes div {
+  body .text-boxes div {
     margin: 0 1em 1em 1em;
     padding: 1em; }
-    body div.tb .text-boxes div p {
+    body .text-boxes div p {
       color: #8B9498;
       margin: 0 0 0 0; }
   body footer {
     background-color: #272822;
     color: #8B9498;
-    padding: 1em; }
-    @media (min-width: bp3px) {
+    padding: 1em;
+    text-align: center; }
+    @media (min-width: 479px) {
       body footer {
         display: block;
         float: none; } }
