@@ -4,148 +4,158 @@ header nav img {
 header nav a {
   padding-left: 2em; }
 
-body {
-  max-width: 50em; }
-  body .simple-pricing {
-    height: 15em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    background: url(https://media0.giphy.com/media/rHjtiKPkezza/200_s.gif);
-    background-size: contain;
-    text-align: center;
-    padding-top: 5em; }
-    body .simple-pricing h2 {
+@media (min-width: 767) {
+  body {
+    max-width: 70em; } }
+body .simple-pricing {
+  height: 15em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background: url(https://media0.giphy.com/media/rHjtiKPkezza/200_s.gif);
+  background-size: contain;
+  text-align: center;
+  padding-top: 5em; }
+  body .simple-pricing h2 {
+    margin: 0 0 0 0; }
+body .five-dollar {
+  border-color: #DDDDDD;
+  border: 1px solid;
+  text-align: center;
+  margin-top: 1em; }
+  @media (min-width: 479px) {
+    body .five-dollar {
+      display: inline-block;
+      float: left;
+      margin-left: 2em;
+      width: 28%; } }
+  body .five-dollar .personal {
+    background-color: #519251;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em; }
+    body .five-dollar .personal span {
       margin: 0 0 0 0; }
-  body .five-dollar {
-    border-color: #DDDDDD;
-    border: 1px solid;
-    text-align: center;
-    margin-top: 1em; }
-    @media (min-width: 479px) {
-      body .five-dollar {
-        display: inline-block;
-        float: left;
-        margin-left: 2em;
-        width: 28%; } }
-    body .five-dollar .personal {
-      background-color: #519251;
-      color: white;
-      padding-top: 2em;
-      padding-bottom: 2em; }
-      body .five-dollar .personal span {
-        margin: 0 0 0 0; }
-      body .five-dollar .personal h1 {
-        margin: 0 0 0 0;
-        font-size: 40pt; }
-    body .five-dollar h4 {
-      background-color: #F7F7F7;
-      border-color: #DDDDDD;
-      border-top: 1px solid;
+    body .five-dollar .personal h1 {
       margin: 0 0 0 0;
-      padding-top: 1em;
-      padding-bottom: 1em; }
-    body .five-dollar div {
-      border-top: #DDDDDD;
-      border: 1px solid;
-      padding-top: 1em;
-      padding-bottom: 1em; }
-      body .five-dollar div button {
-        height: 2em;
-        border-color: #DDDDDD;
-        border: 1px solid;
-        border-radius: 40%; }
-  body .twenty-five-dollar {
+      font-size: 40pt; }
+  body .five-dollar h4 {
+    background-color: #F7F7F7;
     border-color: #DDDDDD;
+    border-top: 1px solid;
+    margin: 0 0 0 0;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  body .five-dollar div {
+    border-top: #DDDDDD;
     border: 1px solid;
-    text-align: center;
-    margin-top: 1em; }
-    @media (min-width: 479px) {
-      body .twenty-five-dollar {
-        display: inline-block;
-        float: left;
-        margin-left: 2em;
-        width: 28%; } }
-    body .twenty-five-dollar .smallb {
-      background-color: #2C4985;
-      color: white;
-      padding-top: 2em;
-      padding-bottom: 2em; }
-      body .twenty-five-dollar .smallb h3 {
-        margin: 0 0 0 0; }
-      body .twenty-five-dollar .smallb h1 {
-        margin: 0 0 0 0;
-        font-size: 40pt; }
-    body .twenty-five-dollar h4 {
-      background-color: #DDDDDD;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+    body .five-dollar div button {
+      height: 2em;
       border-color: #DDDDDD;
-      border-top: 1px solid;
-      margin: 0 0 0 0;
-      padding-top: 1em;
-      padding-bottom: 1em; }
-    body .twenty-five-dollar div {
-      border-top: #DDDDDD;
       border: 1px solid;
-      padding-top: 1em;
-      padding-bottom: 1em; }
-      body .twenty-five-dollar div button {
-        height: 2em;
-        border-color: #DDDDDD;
-        border: 1px solid;
-        border-radius: 40%; }
-  body .fourty-five-dollar {
-    border-color: #DDDDDD;
-    border: 1px solid;
-    text-align: center;
-    margin-top: 1em; }
-    @media (min-width: 479px) {
-      body .fourty-five-dollar {
-        display: inline-block;
-        float: left;
-        margin-left: 2em;
-        width: 28%; } }
-    body .fourty-five-dollar .enterprise {
-      background-color: #272822;
-      color: white;
-      padding-top: 2em;
-      padding-bottom: 2em; }
-      body .fourty-five-dollar .enterprise h3 {
-        margin: 0 0 0 0; }
-      body .fourty-five-dollar .enterprise h1 {
-        margin: 0 0 0 0;
-        font-size: 40pt; }
-    body .fourty-five-dollar h4 {
-      background-color: #DDDDDD;
-      border-color: #DDDDDD;
-      border-top: 1px solid;
-      margin: 0 0 0 0;
-      padding-top: 1em;
-      padding-bottom: 1em; }
-    body .fourty-five-dollar div {
-      border-top: #DDDDDD;
-      border: 1px solid;
-      padding-top: 1em;
-      padding-bottom: 1em; }
-      body .fourty-five-dollar div button {
-        height: 2em;
-        border-color: #DDDDDD;
-        border: 1px solid;
-        border-radius: 40%; }
-  body .text-boxes div {
-    margin: 0 1em 1em 1em;
-    padding: 1em; }
-    body .text-boxes div p {
-      color: #8B9498;
+      border-radius: 40%; }
+body .twenty-five-dollar {
+  border-color: #DDDDDD;
+  border: 1px solid;
+  text-align: center;
+  margin-top: 1em; }
+  @media (min-width: 479px) {
+    body .twenty-five-dollar {
+      display: inline-block;
+      float: left;
+      margin-left: 2em;
+      width: 28%; } }
+  body .twenty-five-dollar .smallb {
+    background-color: #2C4985;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em; }
+    body .twenty-five-dollar .smallb h3 {
       margin: 0 0 0 0; }
-  body footer {
+    body .twenty-five-dollar .smallb h1 {
+      margin: 0 0 0 0;
+      font-size: 40pt; }
+  body .twenty-five-dollar h4 {
+    background-color: #DDDDDD;
+    border-color: #DDDDDD;
+    border-top: 1px solid;
+    margin: 0 0 0 0;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  body .twenty-five-dollar div {
+    border-top: #DDDDDD;
+    border: 1px solid;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+    body .twenty-five-dollar div button {
+      height: 2em;
+      border-color: #DDDDDD;
+      border: 1px solid;
+      border-radius: 40%; }
+body .fourty-five-dollar {
+  border-color: #DDDDDD;
+  border: 1px solid;
+  text-align: center;
+  margin-top: 1em; }
+  @media (min-width: 479px) {
+    body .fourty-five-dollar {
+      display: inline-block;
+      float: left;
+      margin-left: 2em;
+      width: 28%; } }
+  body .fourty-five-dollar .enterprise {
     background-color: #272822;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em; }
+    body .fourty-five-dollar .enterprise h3 {
+      margin: 0 0 0 0; }
+    body .fourty-five-dollar .enterprise h1 {
+      margin: 0 0 0 0;
+      font-size: 40pt; }
+  body .fourty-five-dollar h4 {
+    background-color: #DDDDDD;
+    border-color: #DDDDDD;
+    border-top: 1px solid;
+    margin: 0 0 0 0;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  body .fourty-five-dollar div {
+    border-top: #DDDDDD;
+    border: 1px solid;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+    body .fourty-five-dollar div button {
+      height: 2em;
+      border-color: #DDDDDD;
+      border: 1px solid;
+      border-radius: 40%; }
+@media (min-width: 767) {
+  body section.text-boxes {
+    margin-left: 15em; } }
+@media (min-width: 479px) {
+  body section.text-boxes {
+    margin-left: 5em; } }
+body section.text-boxes div {
+  margin: 0 1em 1em 1em;
+  padding: 1em; }
+  @media (min-width: 479px) {
+    body section.text-boxes div {
+      display: inline-block;
+      float: left;
+      width: 30%;
+      margin-left: 0 auto; } }
+  body section.text-boxes div p {
     color: #8B9498;
-    padding: 1em;
-    text-align: center; }
-    @media (min-width: 479px) {
-      body footer {
-        display: block;
-        float: none; } }
-    body footer nav a {
-      color: #8B9498; }
+    margin: 0 0 0 0; }
+body footer {
+  background-color: #272822;
+  color: #8B9498;
+  padding: 1em;
+  text-align: center;
+  display: block; }
+  body footer nav a {
+    color: #8B9498; }
 
 /*# sourceMappingURL=main.css.map */
