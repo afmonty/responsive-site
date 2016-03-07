@@ -170,22 +170,21 @@ body{
 	    }
 	}
 	section.text-boxes{
-		@media (min-width: $bp3) {
-  		margin-left: 15em;
-  		}
-  		@media (min-width: $bp2) {
+		@media (min-width: $bp2) {
   		margin-left: 5em;
+  		}
+  		@media (min-width: $bp3) {
+  		margin-left: 20em;
   		}
 		div{
 	    	margin: 0 1em 1em 1em;
 	    	padding: 1em;
 	    	@media (min-width: $bp2) {
-  		display: inline-block;
-  		float:left;
-  		width: 30%;
-  		margin-left: 0 auto;
-
- 	 	}
+	  		display: inline-block;
+	  		float:left;
+	  		width: 30%;
+	  		margin-left: 0 auto;
+	  		}
 		   	p{
 		    	color: #8B9498;
 		    	margin: 0 0 0 0;
