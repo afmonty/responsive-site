@@ -4,9 +4,9 @@ header nav img {
 header nav a {
   padding-left: 2em; }
 
-@media (min-width: 767) {
+@media (min-width: 767px) {
   body {
-    max-width: 70em; } }
+    max-width: 80em; } }
 body .simple-pricing {
   height: 15em;
   margin-top: 1em;
@@ -24,10 +24,17 @@ body .five-dollar {
   margin-top: 1em; }
   @media (min-width: 479px) {
     body .five-dollar {
-      display: inline-block;
-      float: left;
-      margin-left: 2em;
-      width: 28%; } }
+      margin-left: 2em; } }
+  @media (min-width: 767px) {
+    body .five-dollar {
+      width: 40%;
+      margin: 2em;
+      float: left; } }
+  @media (min-width: 979px) {
+    body .five-dollar {
+      width: 28%;
+      margin: 2em;
+      float: left; } }
   body .five-dollar .personal {
     background-color: #519251;
     color: white;
@@ -62,10 +69,18 @@ body .twenty-five-dollar {
   margin-top: 1em; }
   @media (min-width: 479px) {
     body .twenty-five-dollar {
-      display: inline-block;
+      margin-left: 2em; } }
+  @media (min-width: 767px) {
+    body .twenty-five-dollar {
+      width: 40%;
+      margin: 2em;
       float: left;
-      margin-left: 2em;
-      width: 28%; } }
+      display: block; } }
+  @media (min-width: 979px) {
+    body .twenty-five-dollar {
+      width: 28%;
+      margin: 2em;
+      float: left; } }
   body .twenty-five-dollar .smallb {
     background-color: #2C4985;
     color: white;
@@ -100,10 +115,18 @@ body .fourty-five-dollar {
   margin-top: 1em; }
   @media (min-width: 479px) {
     body .fourty-five-dollar {
-      display: inline-block;
-      float: left;
-      margin-left: 2em;
-      width: 28%; } }
+      margin-left: 2em; } }
+  @media (min-width: 767px) {
+    body .fourty-five-dollar {
+      width: 40%;
+      margin: 2em;
+      margin-left: 15em;
+      float: left; } }
+  @media (min-width: 979px) {
+    body .fourty-five-dollar {
+      width: 28%;
+      margin: 2em;
+      float: left; } }
   body .fourty-five-dollar .enterprise {
     background-color: #272822;
     color: white;
@@ -131,24 +154,20 @@ body .fourty-five-dollar {
       border-color: #DDDDDD;
       border: 1px solid;
       border-radius: 40%; }
-@media (min-width: 479px) {
-  body section.text-boxes {
-    margin-left: 5em; } }
-@media (min-width: 767) {
-  body section.text-boxes {
-    margin-left: 20em; } }
-body section.text-boxes div {
-  margin: 0 1em 1em 1em;
-  padding: 1em; }
-  @media (min-width: 479px) {
-    body section.text-boxes div {
-      display: inline-block;
-      float: left;
-      width: 30%;
-      margin-left: 0 auto; } }
-  body section.text-boxes div p {
-    color: #8B9498;
-    margin: 0 0 0 0; }
+body section.textboxes {
+  overflow: hidden;
+  float: left; }
+  body section.textboxes div {
+    margin: 0 1em 1em 1em;
+    padding: 1em; }
+    @media (min-width: 767px) {
+      body section.textboxes div {
+        float: left;
+        width: 40%;
+        margin-left: 0 auto; } }
+    body section.textboxes div p {
+      color: #8B9498;
+      margin: 0 0 0 0; }
 body footer {
   background-color: #272822;
   color: #8B9498;
